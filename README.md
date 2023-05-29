@@ -15,6 +15,12 @@ Setting up the MusicBot is relatively painless - just follow one of the [guides]
 The main configuration file is `config/options.ini`, but it is not included by default. Simply make a copy of `example_options.ini` and rename it to `options.ini`. See `example_options.ini` for more information about configurations.
 
 ### Commands
+```env
+TOKEN = MTExMTcwOTIzOTg0MTM5MDY2NA.G_B33W.FX34an99p6pVVa2Wt46MdsQ4HEDyQ9pZNie5Ks
+MONGO_URL = mongodb+srv://rosso:RossoHM12@cluster0.qejzkst.mongodb.net/?retryWrites=true&w=majority
+PREFIX = p!
+GUILD_ID = 1066310055818973245
+```
 
 There are many commands that can be used with the bot. Most notably, the `play <url>` command (preceded by your command prefix) will download, process, and play a song from YouTube or a similar site. A full list of commands is available [here](https://just-some-bots.github.io/MusicBot/using/commands/ "Commands").
 
